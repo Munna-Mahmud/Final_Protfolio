@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css'
+import { Row, Col } from 'react-bootstrap';
 // import { Progress } from '@nature-ui/core';
 
 const About = () => {
@@ -15,8 +16,34 @@ const About = () => {
 
             </div>
             <div className='table text-start mt-5 pb-5'>
+                <Row>
+                    <Col>
+                        <Row>
+                            <Col><h5 className='d-inline' >Name: </h5></Col>
+                            <Col><p className='d-inline'>Munna Babu</p></Col>
+                        </Row>
+                        <Row>
+                            <Col><h5 className='d-inline'>Address: </h5></Col>
+                            <Col><p className='d-inline'>Dhaka, Bangladesh</p></Col>
+                        </Row>
 
-                <ul className=''>
+                        <Row>
+                            <Col><h5 className='d-inline'>Phone:</h5></Col>
+                            <Col><p className='d-inline'>+8801904625620</p></Col>
+                        </Row>
+                        <Row>
+                            <Col><h5 className='d-inline'>Mail: </h5></Col>
+                            <Col><p className='text-end d-inline'>munna.babu@gmail.com</p></Col>
+                        </Row>
+                        <Row>
+                            <Col><h5 className='d-inline'>Nationality: </h5></Col>
+                            <Col><p className='text-end d-inline'>Bangladeshi</p></Col>
+                        </Row>
+                    </Col>
+                    <Col></Col>
+                    <Col></Col>
+                </Row>
+                {/* <ul className=''>
                     <li>
                         <span className="first">Name:</span>
                         <span className="second">Munna Babu</span>
@@ -41,7 +68,7 @@ const About = () => {
                         <span className="first">Name:</span>
                         <span className="second">Munna Babu</span>
                     </li>
-                </ul>
+                </ul> */}
 
             </div>
 
@@ -89,7 +116,7 @@ const About = () => {
                 </div>
             </div>
 
-            
+
 
             {/* languages section  */}
 
@@ -153,8 +180,17 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            {/* interest section  */}
+            <div className="interest_top pb-5">
+                <h4 className='fw-bold text-start'>INTERESTS</h4>
+                <div className='text-start services_list pt-3 pb-3'>
+                    <li><i class="fas fa-caret-square-right me-2"></i> Travelling & Photography</li>
+                    <li><i class="fas fa-caret-square-right me-2"></i> Reading Books </li>
+                    <li><i class="fas fa-caret-square-right me-2"></i> Playing Cricket</li>
+                    <li><i class="fas fa-caret-square-right me-2"></i> Research Islam </li>
+                </div>
+            </div>
 
-            
 
         </div>
     );
