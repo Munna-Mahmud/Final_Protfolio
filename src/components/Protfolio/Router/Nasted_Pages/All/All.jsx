@@ -387,86 +387,30 @@ const All = () => {
                     <h3 className='fs-5 pb-2 fw-bold text-start' style={{ fontFamily: "sans-serif" }}>PHOTOGRAPHS</h3>
                     <Row xs={1} md={2} className="g-4">
                         <Col>
-                            <Card data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <Card>
                                 <Card.Img src={photo1} />
 
-
-                                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div className="modal-dialog">
-                                        <div className="modal-content">
-                                            <div className="modal-header">
-                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div className="modal-body text-start">
-                                                {/* <img src={photo1} alt="" /> */}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* </Card.Body> */}
                             </Card>
                         </Col>
 
                         <Col>
-                            <Card data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <Card >
                                 <Card.Img src={photo2} />
 
-
-                                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div className="modal-dialog">
-                                        <div className="modal-content">
-                                            <div className="modal-header">
-                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div className="modal-body text-start">
-                                                <img src={photo2} alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* </Card.Body> */}
                             </Card>
                         </Col>
 
                         <Col>
-                            <Card data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <Card >
                                 <Card.Img src={photo3} />
 
-
-                                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div className="modal-dialog">
-                                        <div className="modal-content">
-                                            <div className="modal-header">
-                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div className="modal-body text-start">
-                                                <img src={photo3} alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* </Card.Body> */}
                             </Card>
                         </Col>
 
                         <Col>
-                            <Card data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <Card >
                                 <Card.Img src={photo4} />
 
-
-                                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div className="modal-dialog">
-                                        <div className="modal-content">
-                                            <div className="modal-header">
-                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div className="modal-body text-start">
-                                                <img src={photo4} alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* </Card.Body> */}
                             </Card>
                         </Col>
 
