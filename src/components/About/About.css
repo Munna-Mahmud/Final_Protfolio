@@ -1,14 +1,13 @@
 .about_top h4::after{
     content: "";
-    /* display: block; */
-    width: 63rem;
+    width: 55rem;
     height: 3px;
-    background-color: #7d7789;
+    background-color: #7d7789;;
     border-radius: 10px;
-    /* transform: matrix(1, 0, 0, -1, 0, 0); */
     right: 40px;
-    top: 14.5%;
+    top: 16%;
     position: absolute;
+
 
 }
 .about_top h4{
@@ -42,7 +41,7 @@
 }  */
  .services_top h4::after{
     content: "";
-    width: 63rem;
+    width: 54rem;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -68,7 +67,7 @@
 
 .programming_top h4::after{
     content: "";
-    width: 56rem;
+    width: 48rem;
     height: 2px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -103,8 +102,8 @@
 
 .language_top h4::after{
     content: "";
-    width: 61rem;
-    height: 3px;
+    width: 52rem;
+    height: 2px;
     background-color:#7d7789;;
     border-radius: 10px;
     right: 40px;
@@ -121,7 +120,7 @@
 
 .education_top h4::after{
     content: "";
-    width: 60rem;
+    width: 52rem;
     height: 2px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -153,7 +152,7 @@
 
 .experience_top h4::after{
     content: "";
-    width: 60rem;
+    width: 51rem;
     height: 2px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -185,7 +184,7 @@
 }
 .interest_top h4::after{
     content: "";
-    width: 60rem;
+    width: 53rem;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;

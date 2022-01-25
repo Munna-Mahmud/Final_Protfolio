@@ -6,8 +6,8 @@
 
 .blog_top h4::after{
     content: "";
-    width: 60rem;
-    height: 2px;
+    width: 50rem;
+    height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
     right: 40px;

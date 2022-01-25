@@ -25,7 +25,7 @@ const Navigation = () => {
               <Nav className="justify-content-end flex-grow-1 pe-3 navber_link">
                 <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                 <Nav.Link as={HashLink} to="/about">About</Nav.Link>
-                <Nav.Link as={HashLink} to="/protfolio">Protfolio</Nav.Link>
+                <Nav.Link as={HashLink} to="/all">Protfolio</Nav.Link>
                 {/* <Nav.Link as={HashLink} to="/home#exoticPlaces">ExoticPlaces</Nav.Link> */}
                 {/* <Nav.Link as={HashLink} to="/about">About US</Nav.Link> */}
                 <Nav.Link as={HashLink} to="/blog">Blog</Nav.Link>

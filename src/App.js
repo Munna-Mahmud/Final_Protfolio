@@ -33,8 +33,9 @@ function App() {
                   <About></About>
                </Route>
 
-               <Route exact path="/protfolio">
-                  <Protfolio></Protfolio>
+               <Route exact path="/all">
+                  <All></All>
+                  {/* <Protfolio></Protfolio> */}
                </Route>
 
 
@@ -49,6 +50,7 @@ function App() {
                {/* nasted all router  */}
                <Route exact path="/all">
                   <All></All>
+                  {/* <Protfolio></Protfolio> */}
                </Route>
                
                <Route exact path="/youtube">
