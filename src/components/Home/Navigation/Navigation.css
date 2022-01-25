@@ -12,7 +12,28 @@ ul li{
     font-weight: bold;
     
 }
-li a{
+.offcanvas-body {
+    flex-grow: 1;
+    padding: 20px !important;
+    overflow-y: auto;
+}
+.offcanvas-end{
+    width: 200px !important;
+    /* height: 400px !important; */
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    /* text-align:  !important; */
+}
+
+.navber_icons a{
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+
 }

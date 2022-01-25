@@ -1,12 +1,12 @@
-.blog_top h4{
+.protfolio_top h4{
     /* margin-top: 1rem; */
     letter-spacing: 4px;
     position: relative;
 }
 
-.blog_top h4::after{
+.protfolio_top h4::after{
     content: "";
-    width: 60rem;
+    width: 54rem;
     height: 2px;
     background-color: #7d7789;;
     border-radius: 10px;
