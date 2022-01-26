@@ -9,7 +9,10 @@ body {
 }
  p{
   color: #2f2e30;
-
+  /* font-family: 'Poppins', sans-serif; */
+}
+h4{
+  font-family: 'Poppins', sans-serif;
 }
 
 code {

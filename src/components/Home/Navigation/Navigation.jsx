@@ -11,7 +11,7 @@ const Navigation = () => {
     <div>
       <Navbar bg="light" expand={false}>
         <Container fluid>
-          <Navbar.Brand href="#">MUNNA BABU</Navbar.Brand>
+          <Navbar.Brand href="/" className="fw-bold ms-4 " >MUNNA</Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Offcanvas
             id="offcanvasNavbar"

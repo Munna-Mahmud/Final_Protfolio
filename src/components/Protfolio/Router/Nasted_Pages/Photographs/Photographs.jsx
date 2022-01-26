@@ -5,7 +5,8 @@ import { Row, Col, Card } from 'react-bootstrap';
 import photo1 from '../../../../../images/instrapic/munna babu (1).jpg'
 import photo2 from '../../../../../images/instrapic/munna babu (2).jpg'
 import photo3 from '../../../../../images/instrapic/munna babu (3).jpg'
-import photo4 from '../../../../../images/instrapic/munna babu (4).jpg'
+import photo4 from '../../../../../images/instrapic/munna babu (4).png'
+
 
 const Photographs = () => {
     return (
