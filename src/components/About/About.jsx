@@ -3,14 +3,16 @@ import './About.css'
 import { Row, Col } from 'react-bootstrap';
 // import { Progress } from '@nature-ui/core';
 
+import banner from '../../../src/images/about.jpg'
+
 const About = () => {
     return (
         <div className="ms-4 me-4">
             <div className='about_top'>
                 <h4 className='text-start fw-bold mt-4 pt-4'>ABOUT ME</h4>
-                <div className='mt-5  text-start fs-5'>
-                    <p>Hello there! My name is Munna Babu. I am a graphic designer, and I'm very passionate and dedicated to my work.
-                        With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+                <div className='mt-5  text-start '>
+                    <p style={{ letterSpacing:'.05em'}}>Hello there! My name is Munna Babu. I am a Web Developer, and I'm very passionate and dedicated to my work.
+                        With 1+ years experience as a professional a Front-End Developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
 
                 </div>
 
@@ -18,57 +20,33 @@ const About = () => {
             <div className='table text-start mt-5 pb-5'>
                 <Row>
                     <Col>
-                        <Row>
-                            <Col><h5 className='d-inline' >Name: </h5></Col>
-                            <Col><p className='d-inline'>Munna Babu</p></Col>
-                        </Row>
-                        <Row>
-                            <Col><h5 className='d-inline'>Address: </h5></Col>
-                            <Col><p className='d-inline'>Dhaka, Bangladesh</p></Col>
-                        </Row>
+                       
+                            <h5 className='d-inline' >Name: </h5> 
+                            <p className='d-inline'>Munna Babu</p> <br />
+                      
+                       
+                            <h5 className='d-inline'>Address: </h5> 
+                            <p className='d-inline'>Dhaka, Bangladesh</p> <br />
+                        
 
-                        <Row>
-                            <Col><h5 className='d-inline'>Phone:</h5></Col>
-                            <Col><p className='d-inline'>+8801904625620</p></Col>
-                        </Row>
-                        <Row>
-                            <Col><h5 className='d-inline'>Mail: </h5></Col>
-                            <Col><p className='text-end d-inline'>munna.babu@gmail.com</p></Col>
-                        </Row>
-                        <Row>
-                            <Col><h5 className='d-inline'>Nationality: </h5></Col>
-                            <Col><p className='text-end d-inline'>Bangladeshi</p></Col>
-                        </Row>
+                       
+                       <h5 className='d-inline'>Phone:</h5> 
+                            <p className='d-inline'>+8801904625620</p> <br />
+                        
+                        
+                            <h5 className='d-inline'>Mail: </h5>
+                            <p className='text-end d-inline'>munna.babu@gmail.com</p> <br />
+                        
+                            <h5 className='d-inline'>Nationality: </h5> 
+                            <p className='text-end d-inline'>Bangladeshi</p> <br />
+                    
                     </Col>
-                    <Col></Col>
-                    <Col></Col>
+                    {/* <Col></Col> */}
+                    <Col className='text-start'>
+                    <img className='w-100 img-fluid ' style={{borderRedius:"10px"}} src={banner} alt="" />
+                    </Col>
                 </Row>
-                {/* <ul className=''>
-                    <li>
-                        <span className="first">Name:</span>
-                        <span className="second">Munna Babu</span>
-                    </li>
-                    <li>
-                        <span className="first">Name:</span>
-                        <span className="second">Munna Babu</span>
-                    </li>
-                    <li>
-                        <span className="first">Name:</span>
-                        <span className="second">Munna Babu</span>
-                    </li>
-                    <li>
-                        <span className="first">Name:</span>
-                        <span className="second">Munna Babu</span>
-                    </li>
-                    <li>
-                        <span className="first">Name:</span>
-                        <span className="second">Munna Babu</span>
-                    </li>
-                    <li>
-                        <span className="first">Name:</span>
-                        <span className="second">Munna Babu</span>
-                    </li>
-                </ul> */}
+               
 
             </div>
 
@@ -90,25 +68,25 @@ const About = () => {
                 <h4 className='text-start fw-bold '>PROGRAMMING</h4>
 
                 <div className='mt-5 pb-5'>
-                    <p className='text-start fs-5 fw-bold'>HTML & CSS</p>
+                    <h5 className='text-start fs-5 fw-bold'>HTML & CSS</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar html_css_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
 
-                    <p className='text-start fs-5 fw-bold mt-3'>React JS</p>
+                    <h5 className='text-start fs-5 fw-bold mt-3'>React JS</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar react_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                     </div>
 
-                    <p className='text-start fs-5 fw-bold'>Javascript</p>
+                    <h5 className='text-start fs-5 fw-bold mt-3'>Javascript</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar javascript_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
 
-                    <p className='text-start fs-5 fw-bold'>Bootstrap & Tailwind</p>
+                    <h5 className='text-start fs-5 fw-bold mt-3'>Bootstrap & Tailwind</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar bootstrap_tailwind_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">90%</div>
@@ -136,12 +114,12 @@ const About = () => {
                 <div className="mt-5">
                     <div class="row text-start">
                         <div class="col text-start">
-                            <i class="fas fa-briefcase"></i> <li> Dec-2021-Running</li>
+                            <i class="fas fa-briefcase"></i> <li className='fs-5'> Dec-2021-Running</li>
 
                         </div>
                         <div class="col">
 
-                            <p className='fw-bold fs-5 d-inline'>AAk Tele-Science</p>
+                            <h5 className='fw-bold fs-5 d-inline'>AAk Tele-Science</h5>
                             <p>Front-End Developer</p>
                         </div>
 
@@ -156,24 +134,24 @@ const About = () => {
                 <div className='mt-5 pb-5'>
                     <div class="row text-start">
                         <div class="col text-start">
-                            <i class="fas fa-graduation-cap"></i> <li>2019-2023-Running</li>
+                            <i class="fas fa-graduation-cap"></i> <li className='fs-5'>2019-2023-Running</li>
 
                         </div>
                         <div class="col">
 
-                            <p className='fw-bold fs-5 d-inline'>Ideal Institute of Science and Technology</p>
+                            <h5 className='fw-bold fs-5 d-inline'>Ideal Institute of Science and Technology</h5>
                             <p>Diploma In Computer Engineering</p>
                         </div>
 
                     </div>
                     <div class="row text-start">
                         <div class="col text-start">
-                            <i class="fas fa-graduation-cap"></i><li> 2017-2019</li>
+                            <i class="fas fa-graduation-cap "></i><li className='fs-5'> 2017-2019</li>
 
                         </div>
                         <div class="col">
 
-                            <p className='fw-bold fs-5 d-inline'>Kalma Waz Ali Model School</p>
+                            <h5 className='fw-bold fs-5 d-inline'>Kalma Waz Ali Model School</h5>
                             <p>Secondary School Certificate</p>
                         </div>
 

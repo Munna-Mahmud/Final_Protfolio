@@ -18,7 +18,9 @@ ul li{
     overflow-y: auto;
 }
 .offcanvas-end{
-    width: 200px !important;
+    width: 205px !important;
+    /* background-color: #F3F3F3 !important; */
+    border: none !important;
     /* height: 400px !important; */
 }
 .nav-link {
@@ -26,11 +28,14 @@ ul li{
     padding: 0.5rem 1rem;
     color: black !important;
     font-size: 18px !important;
-    font-weight: 400 !important;
+    font-weight: lighter !important;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* text-align:  !important; */
 }
 
+.nav-link:hover{
+   color: darkgrey !important;
+}
 .navber_icons a{
     text-decoration: none;
     color: black;

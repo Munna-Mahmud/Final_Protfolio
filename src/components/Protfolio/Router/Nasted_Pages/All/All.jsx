@@ -4,8 +4,13 @@ import { Row, Col, Card, Modal, Button } from 'react-bootstrap';
 
 
 import goSurf from '../../../../../images/Go Surf.png'
+import goSurfFull from '../../../../../images/ReactProject/skate.png'
+
 import travely from '../../../../../images/ReactProject/Traveliy.png'
+import travel from '../../../../../images/ReactProject/travel.png'
+
 import nordis from '../../../../../images/ReactProject/nordis (2).png'
+import nordi from '../../../../../images/ReactProject/nordis (3).png'
 import soon from '../../../../../images/ReactProject/coming soon.png'
 
 
@@ -44,19 +49,19 @@ const All = () => {
                                 <Card.Body>
                                     <Card.Title className='text-start fw-bold'>Skateboarding</Card.Title>
 
-                                    <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div className="modal fade" modal-dialog modal-dialog-scrollable id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                         <div className="modal-dialog">
                                             <div className="modal-content">
                                                 <div className="modal-header">
                                                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div className="modal-body text-start">
-                                                    <img className='img-fluid w-100' src={goSurf} alt="" />
-                                                    <h5 className='text-start fw-bold pt-3 '>Skateboarding React Projct</h5>
+                                                    <img className='img-fluid w-100' src={goSurfFull} alt="" />
+                                                    <h5 className='text-start fw-bold pt-3 '>Skateboarding </h5>
                                                     <li>Full Responsive React Skateboard Project.</li>
                                                     <li>This Project with an Admin Dashboard and full stack react app with a dynamic Routing system .</li>
                                                     <li>Admin can add, delete, edit, see all orders status , Customer Review system, and Admin can make a new Admin etc.</li>
-                                                    <p>Technologies : Node JS , MongoDB, Express.Js, React js, React Route, Bootstrap, CSS, Material UI, and API firebase authentication, Heroku etc.</p>
+                                                    <p><span className='fw-bold mt-2'>Technologies :</span> Node JS , MongoDB, Express.Js, React js, React Route, Bootstrap, CSS, Material UI, and API firebase authentication, Heroku etc.</p>
 
                                                     <div className='d-flex '>
                                                         <a target="_blank" href="https://go-surf-e8722.web.app/" className='me-3'>Live Site</a>
@@ -88,12 +93,12 @@ const All = () => {
                                                 </div>
                                                 <div class="modal-body">
                                                     <div className="modal-body text-start">
-                                                        <img className='img-fluid w-100' src={travely} alt="" />
+                                                        <img className='img-fluid w-100' src={travel} alt="" />
                                                         <h5 className='text-start fw-bold pt-3 '>Travel With Traveliy</h5>
                                                         <li>Full Responsive React Travel Agency related Project .</li>
                                                         <li>This is Full authentication and the user can book a travel place where theuser wants to travel.</li>
                                                         <li>Treveliy is a full stack project where users can manage their Orders .</li>
-                                                        <p>Technologies : Node JS , MongoDB, Express.Js, React js, React Route, Bootstrap, CSS, Material UI, and API firebase authentication, Heroku etc.</p>
+                                                        <p><span className='fw-bold mt-3'>Technologies :</span> Node JS , MongoDB, Express.Js, React js, React Route, Bootstrap, CSS, Material UI, and API firebase authentication, Heroku etc.</p>
 
                                                         <div className='d-flex '>
                                                             <a href="https://travel-with-traveliy.netlify.app/" className='me-3'>Live Site</a>
@@ -113,9 +118,9 @@ const All = () => {
                         {/* nordis done  */}
                         <Col>
                             <Card data-bs-toggle="modal" href="#exampleModalToggle" role="button">
-                                <Card.Img src={nordis} />
+                                <Card.Img src={nordi} />
                                 <Card.Body>
-                                    <Card.Title className='text-start fw-bold'>Nordis</Card.Title>
+                                    <Card.Title className='text-start fw-bold'>Nordis Health Center</Card.Title>
 
 
                                     {/* this is modal  */}
@@ -128,11 +133,11 @@ const All = () => {
                                                 </div>
                                                 <div className="modal-body text-start">
                                                     <img className='img-fluid w-100' src={nordis} alt="" />
-                                                    <h5 className='text-start fw-bold pt-3 '>Skateboarding React Projct</h5>
+                                                    <h5 className='text-start fw-bold pt-3 '>Health Care Center</h5>
                                                     <li>Fully Responsive Health Center Services React APP.</li>
                                                     <li>Customers can see all doctors services and also can book doctorsappointments.</li>
                                                     <li>Nordis Health Center is a totally front-end focused app with a third party API.</li>
-                                                    <p> <span className='fw-bold'>Technologies :</span> React js, React Route, Bootstrap, CSS, and API firebase authentication, Netlify etc.</p>
+                                                    <p> <span className='fw-bold mt-3'>Technologies :</span> React js, React Route, Bootstrap, CSS, and API firebase authentication, Netlify etc.</p>
 
                                                     <div className='d-flex '>
                                                         <a target="_blank" href="https://nordis-health-care-center.web.app/" className='me-3'>Live Site</a>
@@ -384,7 +389,7 @@ const All = () => {
                 {/* this is photograhps section  */}
 
                 <div className="mt-5 pb-4">
-                    <h3 className='fs-5 pb-2 fw-bold text-start' style={{ fontFamily: "sans-serif" }}>PHOTOGRAPHS</h3>
+                    <h3 className='fs-5 pb-2 fw-bold text-start' style={{ fontFamily: "sans-serif" }}>MOBILE PHOTOGRAPHS</h3>
                     <Row xs={1} md={2} className="g-4">
                         <Col>
                             <Card>
