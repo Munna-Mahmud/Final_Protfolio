@@ -68,25 +68,25 @@ const About = () => {
                 <h4 className='text-start fw-bold '>PROGRAMMING</h4>
 
                 <div className='mt-5 pb-5'>
-                    <h5 className='text-start fs-5 fw-bold'>HTML & CSS</h5>
+                    <h5 className='text-start fs-6 fw-bold'>HTML & CSS</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar html_css_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">95%</div>
                     </div>
 
-                    <h5 className='text-start fs-5 fw-bold mt-3'>React JS</h5>
+                    <h5 className='text-start fs-6 fw-bold mt-3'>React JS</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar react_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
                     </div>
 
-                    <h5 className='text-start fs-5 fw-bold mt-3'>Javascript</h5>
+                    <h5 className='text-start fs-6 fw-bold mt-3'>Javascript</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar javascript_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">80%</div>
                     </div>
 
-                    <h5 className='text-start fs-5 fw-bold mt-3'>Bootstrap & Tailwind</h5>
+                    <h5 className='text-start fs-6 fw-bold mt-3'>Bootstrap & Tailwind</h5>
                     {/* <p className='text-end d-inline'>80%</p> */}
                     <div class="progress">
                         <div class="progress-bar bootstrap_tailwind_bar bg-secondary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">90%</div>
