@@ -84,14 +84,14 @@ const All = () => {
                                     <Card.Title className='text-start fw-bold'>Travel with Travely</Card.Title>
 
 
-                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    {/* <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5> */}
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div className="modal-dialog">
+                                            <div className="modal-content">
+                                                <div className="modal-header">
+                                                    {/* <h5 className="modal-title" id="staticBackdropLabel">Modal title</h5> */}
+                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
-                                                <div class="modal-body">
+                                                <div className="modal-body">
                                                     <div className="modal-body text-start">
                                                         <img className='img-fluid w-100' src={travel} alt="" />
                                                         <h5 className='text-start fw-bold pt-3 '>Travel With Traveliy</h5>
@@ -124,12 +124,12 @@ const All = () => {
 
 
                                     {/* this is modal  */}
-                                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
-                                        <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    {/* <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5> */}
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <div className="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                                        <div className="modal-dialog modal-dialog-centered">
+                                            <div className="modal-content">
+                                                <div className="modal-header">
+                                                    {/* <h5 className="modal-title" id="exampleModalToggleLabel">Modal 1</h5> */}
+                                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                 </div>
                                                 <div className="modal-body text-start">
                                                     <img className='img-fluid w-100' src={nordis} alt="" />

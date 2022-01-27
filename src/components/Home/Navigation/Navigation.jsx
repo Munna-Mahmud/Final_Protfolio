@@ -33,9 +33,10 @@ const Navigation = () => {
 
               </Nav>
               <div className='navber_icons mt-5'>
-                <a href="#"> <i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github-square"></i></a>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/munna-babu28/"> <i className="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/Munna-Mahmud"><i className="fab fa-github-square"></i></a>
+                <a target="_blank" href="https://www.facebook.com/munnaMaHmud4"><i className="fab fa-facebook-square"></i></a>
+                <a target="_blank" href="#"><i className="fab fa-instagram-square"></i></a>
                 <p className='fs-6 pt-2 '>copyright@munna2022</p>
               </div>
             </Offcanvas.Body>

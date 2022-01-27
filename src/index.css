@@ -3,7 +3,8 @@ body {
   /* font-family: 'Poppins'; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F3F3F3;
+  /* background-color: #F3F3F3; */
+  background-color: #f6fbff;
 }
  p{
   color:#9B9BA3;
@@ -11,7 +12,15 @@ body {
   letter-spacing: .05em;
   line-height: 1.85em;
   font-weight: lighter;
-
+}
+li{
+  color: #9B9BA3;
+  font-size: 17px !important;
+}
+h5{
+  color: #9B9BA3;
+  font-family: 'Poppins';
+  font-size: 18px;
 }
 h4{
   font-family: 'Poppins', sans-serif;

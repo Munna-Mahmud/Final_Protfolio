@@ -36,34 +36,34 @@ const Contact = () => {
         <div id="contact" className=' ms-4 me-4 contact_top pb-5 mb-5' >
             <h4 className='text-start fw-bold mt-4 pt-4'>GET IN TOUCH</h4>
             <section className='mt-5 pt-5' >
-                <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-                    <div class="container h-100">
-                        <div class="row d-flex justify-content-center align-items-center h-100">
-                            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
-                                <div class="card" style={{ borderRadius: " 15px" }}>
-                                    <div class=" p-5 ">
-                                        <h3 class=" text-center mb-5">Send Your Massage</h3>
+                <div className="mask d-flex align-items-center h-100 gradient-custom-3">
+                    <div className="container h-100">
+                        <div className="row d-flex justify-content-center align-items-center h-100">
+                            <div className="col-12 col-md-9 col-lg-7 col-xl-6">
+                                <div className="card" style={{ borderRadius: " 15px" }}>
+                                    <div className=" p-5 ">
+                                        <h3 className=" text-center mb-5">Send Your Massage</h3>
 
                                         <form onSubmit={sendEmail} >
 
-                                            <div class="form-outline mb-4">
-                                                <input type="text" id="form3Example1cg" class="form-control form-control-lg" name="client_name" placeholder="Your Name" />
-                                                {/* <label class="form-label" for="form3Example1cg">Your Name</label> */}
+                                            <div className="form-outline mb-4">
+                                                <input type="text" id="form3Example1cg" className="form-control form-control-lg" name="client_name" placeholder="Your Name" />
+                                                {/* <label className="form-label" for="form3Example1cg">Your Name</label> */}
                                             </div>
 
-                                            <div class="form-outline mb-4">
-                                                <input type="email" id="form3Example3cg" class="form-control form-control-lg" name="email" placeholder="Your Email" />
-                                                {/* <label class="form-label" for="form3Example3cg" placeholder="Your Email">Your Email</label> */}
+                                            <div className="form-outline mb-4">
+                                                <input type="email" id="form3Example3cg" className="form-control form-control-lg" name="email" placeholder="Your Email" />
+                                                {/* <label className="form-label" for="form3Example3cg" placeholder="Your Email">Your Email</label> */}
                                             </div>
 
-                                            <div class="form-outline mb-4">
+                                            <div className="form-outline mb-4">
 
-                                                <textarea class="form-control form-control-lg" id="form3Example4cg" rows="4" name="message" placeholder="Your Message" ></textarea>
+                                                <textarea className="form-control form-control-lg" id="form3Example4cg" rows="4" name="message" placeholder="Your Message" ></textarea>
 
-                                                {/* <label class="form-label" for="form3Example4cg">Your Message</label> */}
+                                                {/* <label className="form-label" for="form3Example4cg">Your Message</label> */}
                                             </div>
 
-                                            <div class="d-flex  justify-content-center">
+                                            <div className="d-flex  justify-content-center">
                                                 <input className="btn  send_btn " type="submit" value="Send" />
 
                                             </div>
