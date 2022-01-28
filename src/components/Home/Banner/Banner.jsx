@@ -7,7 +7,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const Banner = () => {
     return (
         <div className='ms-4 me-4 '>
-            <div className="row">
+            <div className="row" data-aos="fade-up">
                 <div className="col-md-6 text-start mt-5 pt-5">
                     <div className='pt-5 banner'>
                         <h1 className='name_title' style={{fontFamily:"Poppins"}}>MUNNA BABU</h1>

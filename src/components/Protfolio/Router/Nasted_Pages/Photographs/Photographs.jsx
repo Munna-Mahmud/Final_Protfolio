@@ -12,7 +12,7 @@ const Photographs = () => {
     return (
         <div>
             <Protfolio></Protfolio>
-            <div className="ms-4 me-4">
+            <div className="ms-4 me-4" data-aos="zoom-in">
             <div className="mt-5 pb-4">
                     <h3 className='fs-5 pb-2 fw-bold text-start' style={{ fontFamily: "sans-serif" }}>MOBILE PHOTOGRAPHS</h3>
                     <Row xs={1} md={2} className="g-4">

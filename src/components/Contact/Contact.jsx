@@ -33,7 +33,7 @@ const Contact = () => {
     };
 
     return (
-        <div id="contact" className=' ms-4 me-4 contact_top pb-5 mb-5' >
+        <div id="contact" className=' ms-4 me-4 contact_top pb-5 mb-5' data-aos="fade-up" >
             <h4 className='text-start fw-bold mt-4 pt-4'>GET IN TOUCH</h4>
             <section className='mt-5 pt-5' >
                 <div className="mask d-flex align-items-center h-100 gradient-custom-3">

@@ -7,7 +7,7 @@ const Youtube = () => {
     return (
         <div>
             <Protfolio></Protfolio>
-          <div className="ms-4 me-4">
+          <div className="ms-4 me-4" data-aos="fade-up">
                 {/* THIS IS YOUTUBE SECTION  */}
 
                 <div className="mt-5 pb-4">

@@ -36,7 +36,7 @@ const All = () => {
     return (
         <div>
             <Protfolio></Protfolio>
-            <div className='ms-4 me-4 ps-3'>
+            <div className='ms-4 me-4 ' data-aos="fade-up">
 
                 {/* THIS IS REACT PROJECT SECTION  */}
 

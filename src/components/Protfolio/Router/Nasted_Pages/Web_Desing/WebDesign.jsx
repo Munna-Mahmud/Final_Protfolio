@@ -18,7 +18,7 @@ const WebDesign = () => {
           <div className="ms-4 me-4 ">
                {/* THIS IS WEB DESIGN SECTION  */}
 
-               <div className="mt-5 pb-5">
+               <div className="mt-5 pb-5"  data-aos="fade-up">
                     <h3 className='fs-5 pb-2 fw-bold text-start' style={{ fontFamily: "sans-serif" }}>WEB DESIGN</h3>
                     <Row xs={1} md={2} className="g-4">
                         <Col>

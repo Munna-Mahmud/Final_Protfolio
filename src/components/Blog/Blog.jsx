@@ -4,7 +4,8 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div className='ms-4 me-4 mt-5 '>
+        <div className='ms-4 me-4 mt-5 ' data-aos="fade-up"
+        data-aos-duration="3000">
             <div className="blog_top">
                 <h4 className='fw-bold text-start'>LATEST BLOG</h4>
                 <div className="mt-5">

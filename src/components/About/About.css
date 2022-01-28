@@ -1,20 +1,21 @@
 .about_top h4::after{
     content: "";
-    width: 56rem;
+    width: 54rem;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
-    right: 45px;
-    top: 16%;
+    right: 35px;
+    top:67%;
     position: absolute;
 
 
 }
 .about_top h4{
+    margin-top: 2rem;
     letter-spacing: 4px;
+    position: relative;
+
 }
-
-
 
 /* services code  */
 
