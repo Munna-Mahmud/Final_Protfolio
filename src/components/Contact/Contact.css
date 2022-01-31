@@ -8,7 +8,7 @@
     }
     .contact_top h4::after{
         content: "";
-        width: 49rem;
+        width: 66rem;
         height: 2px;
         background-color: #7d7789;;
         border-radius: 10px;
@@ -35,3 +35,6 @@
         background-color: white;
         color: black;
     }
+
+   
+  

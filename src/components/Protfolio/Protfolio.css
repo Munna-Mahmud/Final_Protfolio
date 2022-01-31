@@ -6,7 +6,7 @@
 
 .protfolio_top h4::after{
     content: "";
-    width: 43rem;
+    width: 60rem;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
