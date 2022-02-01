@@ -6,11 +6,37 @@
 
 .protfolio_top h4::after{
     content: "";
-    width: 60rem;
+    width: 82%;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
     right: 40px;
     top: 50%;
     position: absolute;
+}
+
+@media all and (max-width: 480px) { 
+    .protfolio_top h4::after{
+        content: "";
+        width: 10%;
+        height: 3px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 820px) {
+    .protfolio_top h4::after {
+        content: "";
+        width: 56%;
+        height: 3px;
+        background-color: #7d7789;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
 }

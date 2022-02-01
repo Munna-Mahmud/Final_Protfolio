@@ -1,6 +1,6 @@
 .about_top h4::after{
     content: "";
-    width: 69rem;
+    width: 90%;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -29,7 +29,7 @@
 }  */
  .services_top h4::after{
     content: "";
-    width: 69rem;
+    width: 90%;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -55,7 +55,7 @@
 
 .programming_top h4::after{
     content: "";
-    width: 65rem;
+    width: 87%;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -90,7 +90,7 @@
 
 .language_top h4::after{
     content: "";
-    width: 68rem;
+    width: 90%;
     height: 2px;
     background-color:#7d7789;;
     border-radius: 10px;
@@ -108,7 +108,7 @@
 
 .education_top h4::after{
     content: "";
-    width: 68rem;
+    width: 90%;
     height: 2px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -140,7 +140,7 @@
 
 .experience_top h4::after{
     content: "";
-    width: 67rem;
+    width: 90%;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -172,11 +172,189 @@
 }
 .interest_top h4::after{
     content: "";
-    width: 53rem;
+    width: 90%;
     height: 2px;
     background-color: #7d7789;;
     border-radius: 10px;
     right: 40px;
     top: 50%;
     position: absolute;
+}
+/* for mobile  */
+@media all and (max-width: 480px) { 
+  
+    
+    .programming_top h4::after{
+        content: "";
+        width: 39%;
+        height: 3px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .services_top h4::after{
+        content: "";
+        width: 47%;
+        height: 3px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    } 
+    .about_top h4::after{
+        content: "";
+        width: 48%;
+        height: 3px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 35px;
+        top:67%;
+        position: absolute;
+    
+    
+    }
+    .language_top h4::after{
+        content: "";
+        width: 47%;
+        height: 2px;
+        background-color:#7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .interest_top h4::after{
+        content: "";
+        width: 47%;
+        height: 2px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .experience_top h4::after{
+        content: "";
+        width: 46%;
+        height: 3px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .education_top h4::after{
+        content: "";
+        width: 48%;
+        height: 2px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .education_top h4::after{
+        content: "";
+        width: 46%;
+        height: 2px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+
+ }
+
+/* for ipad tablet  */
+@media only screen and (min-width: 720px) and (max-width: 820px) {
+    .about_top h4::after {
+        content: "";
+        width: 77%;
+        height: 3px;
+        background-color: #7d7789;
+        border-radius: 10px;
+        right: 35px;
+        top: 67%;
+        position: absolute;
+    }
+    .services_top h4::after {
+        content: "";
+        width: 77%;
+        height: 3px;
+        background-color: #7d7789;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .programming_top h4::after {
+        content: "";
+        width: 69%;
+        height: 3px;
+        background-color: #7d7789;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .education_top h4::after {
+        content: "";
+        width: 75%;
+        height: 2px;
+        background-color: #7d7789;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .language_top h4::after {
+        content: "";
+        width: 76%;
+        height: 2px;
+        background-color: #7d7789;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .interest_top h4::after{
+        content: "";
+        width: 76%;
+        height: 2px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    .experience_top h4::after{
+        content: "";
+        width: 72%;
+        height: 3px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+    
+}
+
+/* for dekstop  */
+@media all and (max-width: 1280px) { 
+    .interest_top h4::after{
+        content: "";
+        width: 90%;
+        height: 2px;
+        background-color: #7d7789;;
+        border-radius: 10px;
+        right: 40px;
+        top: 50%;
+        position: absolute;
+    }
+
 }

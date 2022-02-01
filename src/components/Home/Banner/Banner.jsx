@@ -8,10 +8,10 @@ const Banner = () => {
     return (
         <div className="container-fluid ">
             <div className="row" >
-                <div className="col-md-6 col-xl-6 col-sm-12" >
+                <div className="col-md-6 col-xl-6 col-sm-12 " >
                     <div className=" text-start mt-5 pt-5">
                         <div className='pt-5 banner'>
-                            <h1 className='name_title bg-xl-primary bg-md-danger bg-sm-secondary' style={{ fontFamily: "Poppins" }}>MUNNA BABU</h1>
+                            <h1 className='name_title' style={{ fontFamily: "Poppins" }}>MUNNA BABU</h1>
                             <h3 className="pb-4 " style={{ color: '#9B9BA3' }}>Creative
                                 <span style={{ color: 'black', fontWeight: 'bold' }}>
                                     {/* Style will be inherited from the parent element */}

@@ -6,7 +6,7 @@
 
 .blog_top h4::after{
     content: "";
-    width: 66rem;
+    width: 88%;
     height: 3px;
     background-color: #7d7789;;
     border-radius: 10px;
@@ -14,3 +14,32 @@
     top: 50%;
     position: absolute;
 }
+
+ 
+    
+    @media all and (max-width: 480px) { 
+        .blog_top h4::after{
+            content: "";
+            width: 40%;
+            height: 3px;
+            background-color: #7d7789;;
+            border-radius: 10px;
+            right: 40px;
+            top: 50%;
+            position: absolute;
+        }
+        
+    }
+
+    @media only screen and (min-width: 720px) and (max-width: 820px) {
+        .blog_top h4::after {
+            content: "";
+            width: 70%;
+            height: 3px;
+            background-color: #7d7789;
+            border-radius: 10px;
+            right: 40px;
+            top: 50%;
+            position: absolute;
+        }
+    }

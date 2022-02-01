@@ -8,8 +8,8 @@
     }
     .contact_top h4::after{
         content: "";
-        width: 66rem;
-        height: 2px;
+        width: 86%;
+        height: 3px;
         background-color: #7d7789;;
         border-radius: 10px;
         right: 40px;
@@ -34,6 +34,33 @@
     .send_btn:hover{
         background-color: white;
         color: black;
+    }
+
+    @media all and (max-width: 480px) { 
+        .contact_top h4::after{
+            content: "";
+            width: 25%;
+            height: 3px;
+            background-color: #7d7789;;
+            border-radius: 10px;
+            right: 40px;
+            top: 70%;
+            position: absolute;
+        
+        
+        }
+    }
+    @media only screen and (min-width: 720px) and (max-width: 820px) {
+        .contact_top h4::after {
+            content: "";
+            width: 68%;
+            height: 3px;
+            background-color: #7d7789;
+            border-radius: 10px;
+            right: 40px;
+            top: 70%;
+            position: absolute;
+        }
     }
 
    
