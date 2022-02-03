@@ -79,13 +79,15 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-            <div className="mt-5 pt-5 pb-5">
-                <div className="cust-map">
-                    <div className="mapouter"><div className="gmap_canvas">
-                        <iframe width={1080} height={504} id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329935.4754253483!2d90.1539247743909!3d23.984953719876188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c29a88755503%3A0x55faa82f5f93b6e8!2sGhosbag!5e0!3m2!1sen!2sbd!4v1643273876776!5m2!1sen!2sbd" frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} /><a href="https://fmovies-online.net" /><br /><style dangerouslySetInnerHTML={{ __html: ".mapouter{position:relative;text-align:right;height:504px;width:1080px;}" }} /><a href="https://www.embedgooglemap.net">google embed map</a><style dangerouslySetInnerHTML={{ __html: ".gmap_canvas {overflow:hidden;background:none!important;height:504px;width:1080px;}" }} /></div></div>
-                </div>
-                {/* <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
-            </div>
+            <section className='mt-5 pt-3 pb-5'>
+            <div className="mt-10 pb-5">
+                            <div className="cust-map">
+                                <div className="mapouter"><div className="gmap_canvas"><iframe width={1080} height={504} id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392431.5972680272!2d90.25651407052888!3d23.961974005321608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c29a88755503%3A0x55faa82f5f93b6e8!2sGhosbag!5e0!3m2!1sen!2sbd!4v1643874740531!5m2!1sen!2sbd" frameBorder={0} scrolling="no" marginHeight={0} marginWidth={0} /><a href="https://fmovies-online.net" /><br /><style dangerouslySetInnerHTML={{ __html: ".mapouter{position:relative;text-align:right;height:504px;width:1080px;}" }} /><a href="https://www.embedgooglemap.net">google embed map</a><style dangerouslySetInnerHTML={{ __html: ".gmap_canvas {overflow:hidden;background:none!important;height:504px;width:1080px;}" }} /></div></div>
+                            </div>
+
+                            {/* <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
+                        </div>
+            </section>
         </div>
     );
 };
