@@ -346,7 +346,7 @@
 
 /* for dekstop  */
 @media all and (max-width: 1280px) { 
-    .interest_top h4::after{
+    /* .interest_top h4::after{
         content: "";
         width: 90%;
         height: 2px;
@@ -355,6 +355,6 @@
         right: 40px;
         top: 50%;
         position: absolute;
-    }
+    } */
 
 }

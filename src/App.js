@@ -37,8 +37,6 @@ function App() {
                   <All></All>
                   {/* <Protfolio></Protfolio> */}
                </Route>
-
-
                <Route exact path="/blog">
                   <Blog></Blog>
                </Route>
@@ -47,7 +45,7 @@ function App() {
                   <Contact></Contact>
                </Route>
 
-               {/* nasted all router  */}
+               {/* All nasted router start here*/}
                <Route exact path="/all">
                   <All></All>
                   {/* <Protfolio></Protfolio> */}
